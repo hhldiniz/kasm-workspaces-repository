@@ -9,7 +9,7 @@ const nextConfig = {
     contactUrl: 'https://kasmweb.com/support',
   },
   reactStrictMode: true,
-  swcMinify: true,
+  output: 'export',
   basePath: '/kasm-registry/1.0',
   trailingSlash: true,
   images: {
